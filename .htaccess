@@ -1,0 +1,5 @@
+Options -Indexes
+AuthType Basic
+AuthName "Test"
+AuthUserFile /var/www/html/serversofthe.net/.htpasswd
+#Require valid-user

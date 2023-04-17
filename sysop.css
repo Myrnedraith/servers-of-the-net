@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "GenesysFont";
+    src: url("./fonts/Genesys.eot");
+    src: url("./fonts/Genesys.woff") format("woff"),
+    url("./fonts/Genesys.svg#filename") format("svg");
+}
+
+.gensymbol {
+    font-family: GenesysFont;
+}
+
+.sysop-table {
+    background-color: #eaf2f6;
+    display: block;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    text-align: left;
+    padding: 5px;
+    width: 640px;
+    width: 50%;
+    vertical-align: top;
+}
+ td {
+      padding: 5px;
+     vertical-align: top;
+   }
+.sysop-stat {
+    background-color: #00829b;
+}
+.sysop-stat-table {
+    background-color: none;
+    border: 1px solid #7c7c7c;
+    padding: 5px;
+    margin-outside: 2px;
+
+}
+.sysop-caption {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.response {
+    display: block;
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    margin-bottom: -10px;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    font-weight: bolder;
+    color: #ffffff;
+    background-color: #00829b;
+        /* background-image: url("https://www.textures.com/system/gallery/photos/Signs/Stripes/115277/Stripes0097_2_download600.jpg");
+    background-image: url("https://www.filterforge.com/filters/2056.jpg"); */
+}
